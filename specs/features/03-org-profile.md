@@ -1,29 +1,24 @@
 ---
 type: Feature
 title: Organization profile
-description: Public visitor-facing profile README on the org homepage.
-tags: [github, organization, profile]
-timestamp: 2026-08-17T00:00:00Z
+description: Public visitor-facing profile README on the lizard-ui org homepage.
+tags: [github, organization, profile, lizard-ui]
+timestamp: 2026-10-11T00:00:00Z
 ---
 
 # Organization profile
 
-GitHub renders **two** organization profile READMEs when you use both meta-repos:
+GitHub renders **`profile/README.md`** from the **lizard-ui/.github** repository as the public org homepage.
 
-| Repository | Audience | File |
-|------------|----------|------|
-| `org/.github` | **Everyone** (public visitors) | `profile/README.md` |
-| `org/.github-private` | Signed-in org members (optional) | `profile/README.md` |
+## Content contract
 
-This template scaffolds the **public** profile at `profile/README.md`.
+* Lead with **what Lizard UI is** (React component library on npm).
+* Link to **lizard-ui/lizard-ui**, **npm**, and **docs/** — not generic template placeholders.
+* Use assets from **`.github/icon-cropped.png`** and **`.github/screenshot.png`** in this meta-repo (raw URLs on `lizard-ui/.github` `main`).
+* Keep maintainer-only operational detail out of the public profile.
 
-## Hosted template vs adopter copy
+Preview: push to `main` and open [github.com/lizard-ui](https://github.com/lizard-ui).
 
-| Path | When |
-|------|------|
-| **Root** `profile/README.md` | Placeholder demo on the hosted template repo (not the live org catalog) |
-| **`templates/profile/README.md`** | Placeholder copied to `profile/README.md` when adopters run init |
+## Legacy `templates/` tree
 
-After init, edit **`profile/README.md`** in the adopter org repo to list templates with one-line public summaries. Keep internal maintainer detail out of this file — use `.github-private` if you adopt that template too.
-
-Preview: push to `main` and open `https://github.com/your-org` (no sign-in required).
+The [`templates/`](../../templates/) directory and `scripts/init-from-template.*` remain from the upstream **open-templates** scaffold. The live **lizard-ui** org uses the **root** `profile/README.md` directly — do not run init against production org content without intent.

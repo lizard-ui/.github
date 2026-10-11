@@ -62,6 +62,8 @@ Closes #
 
 ---
 
+**Scope:** Org meta (profile, templates, governance). Link a **lizard-ui/lizard-ui** PR if the library or website changed there.
+
 **For Maintainers:**
 - [ ] Code review completed
 - [ ] All CI checks pass

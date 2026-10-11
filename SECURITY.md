@@ -15,8 +15,9 @@ Update this table when you publish releases.
 
 Report them via:
 
-1. **GitHub Security Advisory** — private vulnerability reporting on the repository
-2. **Direct contact** — message the maintainer listed in [CODEOWNERS](.github/CODEOWNERS)
+1. **GitHub Security Advisory** — on [lizard-ui/lizard-ui](https://github.com/lizard-ui/lizard-ui) for package/runtime issues (preferred)
+2. **This meta-repo** — only for org-profile or template exposure with no package impact
+3. **Direct contact** — maintainer in [CODEOWNERS](.github/CODEOWNERS) (`@charlite`)
 
 ### What to include
 

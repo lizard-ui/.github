@@ -1,12 +1,12 @@
 name: Feature Request
-description: Suggest a new feature for Template
+description: Suggest a feature for lizard-ui (components, themes, or org meta)
 title: "[Feature]: "
 labels: ["enhancement", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting a new feature! 🚀
+        Feature ideas for the **lizard-ui** package (components, theming, website) are best filed on [lizard-ui/lizard-ui](https://github.com/lizard-ui/lizard-ui). Use this form for org-wide meta if needed.
 
   - type: textarea
     id: summary

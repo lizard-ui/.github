@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve our documentation! 📚
+        Docs live in **lizard-ui/lizard-ui** (`docs/`, `knowledge/`, `website/`). Thanks for helping improve them.
 
   - type: dropdown
     id: doc-type
@@ -14,10 +14,11 @@ body:
       label: Documentation Type
       description: What type of documentation issue is this?
       options:
-        - README.md
-        - Setup and onboarding docs
-        - API Documentation
-        - Examples
+        - Package README / CHANGELOG
+        - docs/ reference (components, styles, examples)
+        - knowledge/ OKF bundle or AGENTS.md
+        - website/ showcases or project site
+        - Org profile (profile/README.md)
         - Contributing Guide
         - Code Comments
         - Other

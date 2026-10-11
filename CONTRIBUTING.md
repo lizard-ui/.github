@@ -1,48 +1,37 @@
-# Contributing
+# Contributing — lizard-ui organization
 
-Thanks for helping improve this project.
+Thanks for helping improve **Lizard UI** and org governance.
 
-## Code of Conduct
+## Where to contribute
 
-Participation means agreeing to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+| Change | Repository |
+|--------|------------|
+| Components, themes, `website/`, `docs/`, `knowledge/`, npm release | [lizard-ui/lizard-ui](https://github.com/lizard-ui/lizard-ui) |
+| Org profile, org-wide issue templates, this meta-repo | [lizard-ui/.github](https://github.com/lizard-ui/.github) |
 
-## Local setup
+Follow [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+## Package repo workflow
 
 ```bash
-git clone https://github.com/YOUR_ORG/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/lizard-ui/lizard-ui.git
+cd lizard-ui
+bun install
+bun run typecheck && bun run test && bun run build
 ```
 
-Add stack-specific setup steps here once the project grows beyond the empty template.
+See the package [CONTRIBUTING.md](https://github.com/lizard-ui/lizard-ui/blob/main/CONTRIBUTING.md) and [knowledge/contributing.md](https://github.com/lizard-ui/lizard-ui/blob/main/knowledge/contributing.md).
 
-## What to work on
+## Meta-repo workflow
 
-- Start from the template and open focused PRs
-- Prefer one feature or fix per PR for clearer CHANGELOG batches
+1. Branch from `main` on **lizard-ui/.github**.
+2. Update `profile/README.md` for public org messaging; keep specs in `specs/features/`.
+3. Open a PR using the pull request template.
 
-## Pull requests
+## Commits
 
-1. Branch from `main`.
-2. Keep changes small and focused.
-3. Run any checks you add (this template ships without CI workflows).
-4. Open a PR using the repository pull request template.
-
-## Commit style
-
-[Conventional commits](https://www.conventionalcommits.org/) are preferred so releases can be batched into [CHANGELOG.md](CHANGELOG.md):
-
-- `feat: add user profile endpoint`
-- `fix: handle missing env variable`
-- `docs: update setup section`
-
-See [INSTRUCTIONS.md](INSTRUCTIONS.md) for feature-based CHANGELOG workflow.
+[Conventional commits](https://www.conventionalcommits.org/) preferred. Record user-visible org changes in [CHANGELOG.md](CHANGELOG.md) and [specs/log.md](specs/log.md).
 
 ## License
 
-By contributing, you agree your changes are licensed under MIT (see [LICENSE](LICENSE)).
-
----
-
-## Repository documents
-
-[README](README.md) | [INSTRUCTIONS](INSTRUCTIONS.md) | [CHANGELOG](CHANGELOG.md) | **CONTRIBUTING** | [SECURITY](SECURITY.md) | [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
+By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).

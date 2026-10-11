@@ -1,23 +1,23 @@
 ---
 type: Feature
 title: GitHub automation
-description: Dependabot, CODEOWNERS, issue forms, and Dependabot commit signer workflow.
-tags: [github, dependabot, automation]
-timestamp: 2026-08-17T00:00:00Z
+description: Dependabot, CODEOWNERS, issue forms, and Dependabot commit signer for lizard-ui org.
+tags: [github, dependabot, automation, lizard-ui]
+timestamp: 2026-10-11T00:00:00Z
 ---
 
 # GitHub automation
 
-Shipped at repository root (not copied from `templates/` on init except Dependabot + CODEOWNERS):
+Org-wide defaults in **lizard-ui/.github**:
 
 | Asset | Role |
 |-------|------|
-| `.github/dependabot.yml` | Dependency update PRs (personalized on init) |
+| `.github/dependabot.yml` | Dependency update PRs for this meta-repo |
 | `.github/workflows/dependabot-signature.yml` | `Co-authored-by` on Dependabot commits |
-| `.github/CODEOWNERS` | Review ownership (personalized on init) |
-| `.github/ISSUE_TEMPLATE/*.yml` | Bug, feature, docs issue forms |
+| `.github/CODEOWNERS` | Review ownership (`@charlite`) |
+| `.github/ISSUE_TEMPLATE/*.yml` | Bug, feature, docs forms (reference **lizard-ui** package) |
 | `.github/pull_request_template.md` | Default PR body |
 
-Org profile content is **not** automation — init copies [`templates/profile/README.md`](../../templates/profile/README.md) to [`profile/README.md`](../../profile/README.md). See [03 — Org profile](03-org-profile.md).
+Package repo **lizard-ui/lizard-ui** ships its own CI (`ci.yml`, `publish.yml`) and may mirror these issue templates.
 
 Reference: [docs/README.md](../../docs/README.md).

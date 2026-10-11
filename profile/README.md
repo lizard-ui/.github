@@ -1,37 +1,43 @@
+<img src="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/icon-cropped.png" width="200" alt="Lizard UI" align="left"/>
+
+<div>
+<h3>Lizard UI</h3>
+<p><strong>Theme-aware React components for modern apps.</strong> Radix primitives, glass surfaces, 23 hue themes, forms, overlays, layout chrome, and calendar helpers — shipped as <code>lizard-ui</code> on npm.</p>
+<a href="https://www.npmjs.com/package/lizard-ui"><img src="https://img.shields.io/npm/v/lizard-ui?style=for-the-badge&logo=npm&label=npm" alt="npm lizard-ui"/></a>
+</div>
+
+<br/><br/>
+
 <div align="center">
 
-<img src="https://img.shields.io/badge/GitHub-org%20profile-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Organization profile" />
-
-# owner-display-name
-
-**Open source repositories from your organization.**
-
-<p>
-  <a href="https://github.com/orgs/owner-username/repositories"><strong>Repositories</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/owner-username/.github/blob/main/CONTRIBUTING.md"><strong>Contributing</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/owner-username/.github/blob/main/CODE_OF_CONDUCT.md"><strong>Code of Conduct</strong></a>
-</p>
+<img src="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/screenshot.png" width="824" alt="Lizard UI component site" style="border-radius: 5px;"/><br/>
 
 </div>
 
----
+<hr>
+
+**Lizard UI** is a TypeScript React library with Tailwind-friendly theme tokens and hyphen-order-free glass variants on `Card` and `Button`. The package includes **OKF v0.2** agent knowledge, a **Vite project site** with per-component previews, and reference docs under `docs/`.
+
+### Links
+
+| | |
+|---|---|
+| [**lizard-ui**](https://github.com/lizard-ui/lizard-ui) | Source, tests, `website/`, `knowledge/`, publish workflows |
+| [**npm**](https://www.npmjs.com/package/lizard-ui) | `npm install lizard-ui` (peers: `react`, `react-dom`, `lucide-react`) |
+| [**Docs**](https://github.com/lizard-ui/lizard-ui/tree/main/docs) | Types, components, theming, examples |
+| [**.github**](https://github.com/lizard-ui/.github) | Organization profile and shared governance (this repo) |
 
 ### Repositories
 
-Add one table row per repository in your organization. Keep summaries to a single line.
-
 | Repository | Summary |
 |------------|---------|
-| _your-repo-name_ | _What this repository is for_ |
-
-> This page is rendered from **`profile/README.md`** in your [`.github`](https://github.com/owner-username/.github) repository — the public face of [github.com/owner-username](https://github.com/owner-username).
+| [**lizard-ui**](https://github.com/lizard-ui/lizard-ui) | React UI kit — ESM/CJS, Vitest, project site, OKF bundle |
+| **`.github`** | Org homepage, issue templates, Dependabot, CODEOWNERS |
 
 ---
 
 <div align="center">
 
-<sub>MIT · <a href="https://github.com/owner-username">@owner-username</a></sub>
+<sub>Maintained by <a href="https://github.com/charlite">@charlite</a> · <a href="https://github.com/lizard-ui">@lizard-ui</a></sub>
 
 </div>

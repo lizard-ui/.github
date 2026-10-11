@@ -1,14 +1,8 @@
-# Documentation — GitHub configuration
+# Documentation — lizard-ui org GitHub configuration
 
-Reference for every **workflow**, **issue template**, and **pull request template** shipped with this repository template.
+Reference for workflows, issue templates, and pull request defaults in **lizard-ui/.github**.
 
-Use this folder after creating a repo from the template to understand what each file does and what to customize.
-
-## Init wizard
-
-| Document | Summary |
-|----------|---------|
-| [Initialize from template](init-from-template.md) | Run `./scripts/init-from-template.sh` — copy `templates/` → root |
+Package CI and publish workflows live in [lizard-ui/lizard-ui](https://github.com/lizard-ui/lizard-ui/tree/main/.github/workflows).
 
 ## Workflows
 
@@ -16,37 +10,31 @@ Use this folder after creating a repo from the template to understand what each 
 |----------|-------------|---------|
 | [Dependabot commit signer](dependabot-signature-workflow.md) | [`.github/workflows/dependabot-signature.yml`](../.github/workflows/dependabot-signature.yml) | Amends Dependabot PR commits with a `Co-authored-by` trailer |
 
-This template includes **no other** GitHub Actions workflows (no CI build/test until you add them).
-
 ## Issue templates
 
-Structured forms under [`.github/ISSUE_TEMPLATE/`](../.github/ISSUE_TEMPLATE/). GitHub shows them when contributors click **New issue**.
+Forms under [`.github/ISSUE_TEMPLATE/`](../.github/ISSUE_TEMPLATE/). Prefer filing **library bugs** on the package repo; org forms support both repos.
 
-| Document | Source file | Default title prefix | Labels |
-|----------|-------------|----------------------|--------|
+| Document | Source file | Default title | Labels |
+|----------|-------------|---------------|--------|
 | [Bug report](bug-report-issue-template.md) | [`bug_report.yml`](../.github/ISSUE_TEMPLATE/bug_report.yml) | `[Bug]:` | `bug`, `triage` |
 | [Feature request](feature-request-issue-template.md) | [`feature_request.yml`](../.github/ISSUE_TEMPLATE/feature_request.yml) | `[Feature]:` | `enhancement`, `triage` |
 | [Documentation issue](documentation-issue-template.md) | [`documentation.yml`](../.github/ISSUE_TEMPLATE/documentation.yml) | `[Docs]:` | `documentation`, `triage` |
 
 ## Pull request template
 
-| Document | Source file | Summary |
-|----------|-------------|---------|
-| [Pull request template](pull-request-template.md) | [`.github/pull_request_template.md`](../.github/pull_request_template.md) | Default PR body scaffold for contributors and maintainers |
+| Document | Source file |
+|----------|-------------|
+| [Pull request template](pull-request-template.md) | [`.github/pull_request_template.md`](../.github/pull_request_template.md) |
 
-## Related automation (not documented here)
-
-These ship with the template but live outside `docs/` scope:
+## Related
 
 | File | Role |
 |------|------|
-| [`.github/dependabot.yml`](../.github/dependabot.yml) | Scheduled dependency update PRs |
-| [`.github/CODEOWNERS`](../.github/CODEOWNERS) | Default code review ownership |
+| [`.github/dependabot.yml`](../.github/dependabot.yml) | Dependency update PRs (meta-repo) |
+| [`.github/CODEOWNERS`](../.github/CODEOWNERS) | Default review ownership |
 
-See the [repository README](../README.md) and [INSTRUCTIONS.md](../INSTRUCTIONS.md) for setup and customization.
+See [README.md](../README.md) and [INSTRUCTIONS.md](../INSTRUCTIONS.md).
 
 ---
 
-## Docs index
-
-**README** | [Initialize from template](init-from-template.md) | [Dependabot commit signer](dependabot-signature-workflow.md) | [Bug report](bug-report-issue-template.md) | [Feature request](feature-request-issue-template.md) | [Documentation issue](documentation-issue-template.md) | [Pull request template](pull-request-template.md)
+**README** | [Dependabot commit signer](dependabot-signature-workflow.md) | [Bug report](bug-report-issue-template.md) | [Feature request](feature-request-issue-template.md) | [Documentation issue](documentation-issue-template.md) | [Pull request template](pull-request-template.md)
