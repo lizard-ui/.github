@@ -10,7 +10,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/screenshot.png" width="824" alt="Lizard UI component site" style="border-radius: 5px;"/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/screenshot_dark.png"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/screenshot.png"/>
+  <img src="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/screenshot.png" width="824" alt="Lizard UI component site" style="border-radius: 5px;"/>
+</picture><br/>
 
 </div>
 

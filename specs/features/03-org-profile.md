@@ -14,7 +14,7 @@ GitHub renders **`profile/README.md`** from the **lizard-ui/.github** repository
 
 * Lead with **what Lizard UI is** (React component library on npm).
 * Link to **lizard-ui/lizard-ui**, **npm**, and **docs/**.
-* Use assets from **`.github/icon-cropped.png`** and **`.github/screenshot.png`** in this meta-repo (raw URLs on `lizard-ui/.github` `main`).
+* Use **`.github/icon-cropped.png`** and hero screenshots **`.github/screenshot.png`** / **`.github/screenshot_dark.png`** (org profile uses `<picture>` + `prefers-color-scheme`; raw URLs on `lizard-ui/.github` `main`).
 * Keep maintainer-only operational detail out of the public profile.
 
 Preview: push to `main` and open [github.com/lizard-ui](https://github.com/lizard-ui).
