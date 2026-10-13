@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/icon-cropped.png" width="200" alt="Lizard UI" align="left"/>
+<img src="../.github/icon-cropped.png" width="200" alt="Lizard UI" align="left"/>
 
 <div>
 <h3>Lizard UI</h3>
@@ -11,10 +11,11 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/screenshot_dark.png"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/screenshot.png"/>
-  <img src="https://raw.githubusercontent.com/lizard-ui/.github/main/.github/screenshot.png" width="824" alt="Lizard UI component site" style="border-radius: 5px;"/>
+  <source media="(prefers-color-scheme: dark)" srcset="../.github/screenshot_dark.png"/>
+  <source media="(prefers-color-scheme: light)" srcset="../.github/screenshot.png"/>
+  <img src="../.github/screenshot.png" width="824" alt="Lizard UI component site" style="border-radius: 5px;"/>
 </picture><br/>
+
 
 </div>
 
